@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+   
+
+}
+.body{
+   background: url("bg.png");
+   min-height: 100vh;
+   background-size: 100vw 100vh;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+#scoreBox{
+    position: absolute;
+    top: 9px;
+    right: 194px;
+    font-size: 39px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+#hiscoreBox{
+    position: absolute;
+    top: 59px;
+    right: 149px;
+    font-size: 39px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+}
+#box{
+    background: linear-gradient(rgb(120, 92, 92),rgb(219, 219, 197));
+    width: 90vmin;
+    height: 92vmin;
+    border: 2px solid black;
+    display: grid;
+    grid-template-rows: repeat(18, 1fr);
+    grid-template-columns: repeat(18, 1fr); 
+}
+.head{
+    background: linear-gradient(rgb(204, 65, 65),rgb(215, 215, 103));
+    border: 2px solid black;
+    transform: scale(1.02);
+    border-radius:12px ;
+
+}
+.Sbody{
+    background-color: rgb(162, 94, 78);
+    border: .25vmin solid black;
+    border-radius:  12px;
+}
+.food{
+    background-color: black;
+    border: .25vmin solid white;
+    border-radius:  15px;
+
+} 
